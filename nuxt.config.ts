@@ -21,8 +21,7 @@ const config: NuxtConfig = {
   ],
 
   css: [
-    '~/assets/css/tailwind.css',
-    '~/assets/css/fonts.css'
+    '~/assets/css/tailwind.css'
   ],
 
   app: {
