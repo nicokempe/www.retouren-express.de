@@ -220,12 +220,12 @@ useSeoMeta({
   description: 'Retouren Express - Ihr Partner für aufregende Rücksendungen und Mystery-Boxen.',
   ogTitle: 'Retouren Express',
   ogDescription: 'Retouren Express - Ihr Partner für aufregende Rücksendungen und Mystery-Boxen.',
-  // TODO: ogImage: '/media/mockups/screen.webp',
+  ogImage: '/unwrapping-min.webp',
   ogType: 'website',
   ogUrl: 'https://www.retouren-express.de/',
   twitterTitle: 'Retouren Express',
   twitterDescription: 'Retouren Express - Ihr Partner für aufregende Rücksendungen und Mystery-Boxen.',
-  // TODO: twitterImage: '/media/mockups/screen.webp',
+  twitterImage: '/unwrapping-min.webp',
   twitterCard: 'summary'
 })
 
