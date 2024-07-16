@@ -48,6 +48,10 @@ const config: NuxtConfig = {
     '/legal/**': { prerender: true, cache: { maxAge: 60 * 60 * 24 } }, // Cache for a day */
   },
 
+  cloudflareAnalytics: {
+    token: process.env.CLOUDFLARE_ANALYTICS_TOKEN
+  },
+
   typescript: {
     types: ['@nuxt/types', '@nuxt/content']
   }
