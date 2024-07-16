@@ -62,12 +62,12 @@ useSeoMeta({
   description: 'Erfahren Sie mehr über die Datenschutzrichtlinie von Retouren Express und wie wir Ihre persönlichen Daten schützen.',
   ogTitle: 'Datenschutzrichtlinie - Retouren Express',
   ogDescription: 'Erfahren Sie mehr über die Datenschutzrichtlinie von Retouren Express und wie wir Ihre persönlichen Daten schützen.',
-  // TODO: ogImage: '/media/mockups/screen.webp',
+  ogImage: '/unwrapping-min.webp',
   ogType: 'website',
-  ogUrl: 'https://www.retouren-express.de/datenschutzrichtlinie',
+  ogUrl: 'https://www.retouren-express.de/legal/privacy-policy',
   twitterTitle: 'Datenschutzrichtlinie - Retouren Express',
   twitterDescription: 'Erfahren Sie mehr über die Datenschutzrichtlinie von Retouren Express und wie wir Ihre persönlichen Daten schützen.',
-  // TODO: twitterImage: '/media/mockups/screen.webp',
+  twitterImage: '/unwrapping-min.webp',
   twitterCard: 'summary'
 })
 

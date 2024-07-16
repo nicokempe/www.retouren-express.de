@@ -51,3 +51,32 @@
     </section>
   </main>
 </template>
+
+<script setup lang="ts">
+useSeoMeta({
+  title: 'Impressum',
+  description: 'Impressum von Retouren Express mit Angaben gemäß § 5 TMG.',
+  ogTitle: 'Impressum - Retouren Express',
+  ogDescription: 'Impressum von Retouren Express mit Angaben gemäß § 5 TMG.',
+  ogImage: '/unwrapping-min.webp',
+  ogType: 'website',
+  ogUrl: 'https://www.retouren-express.de/legal/imprint',
+  twitterTitle: 'Impressum - Retouren Express',
+  twitterDescription: 'Impressum von Retouren Express mit Angaben gemäß § 5 TMG.',
+  twitterImage: '/unwrapping-min.webp',
+  twitterCard: 'summary'
+})
+
+useHead({
+  htmlAttrs: {
+    lang: 'de'
+  },
+  link: [
+    {
+      rel: 'icon',
+      type: 'image/x-icon',
+      href: '/favicon.ico'
+    }
+  ]
+})
+</script>
