@@ -41,11 +41,11 @@ const config: NuxtConfig = {
 
   routeRules: {
     '/': { prerender: true },
-    '/coming-soon': { prerender: true, cache: { maxAge: 60 * 60 * 24 } }, // Cache for a day
+    /* '/coming-soon': { prerender: true, cache: { maxAge: 60 * 60 * 24 } }, // Cache for a day
     '/maintenance': { prerender: true, cache: { maxAge: 60 * 60 * 24 } }, // Cache for a day
     '/about': { prerender: true },
     '/contact': { ssr: true },
-    '/legal/**': { prerender: true, cache: { maxAge: 60 * 60 * 24 } }, // Cache for a day
+    '/legal/**': { prerender: true, cache: { maxAge: 60 * 60 * 24 } }, // Cache for a day */
   },
 
   typescript: {
