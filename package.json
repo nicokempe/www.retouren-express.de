@@ -1,0 +1,29 @@
+{
+  "name": "https://www.retouren-express.de/",
+  "version": "v2024.7.1",
+  "author": {
+    "name": "Nico Kempe",
+    "email": "kontakt@nicokempe.de",
+    "url": "https://www.nicokempe.de/"
+  },
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.7.22",
+    "@heroicons/vue": "^2.1.5",
+    "@nuxt/types": "^2.18.1",
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/typography": "^0.5.13",
+    "nuxt": "^3.12.3",
+    "nuxt-cloudflare-analytics": "^1.0.8",
+    "vue": "latest"
+  }
+}
