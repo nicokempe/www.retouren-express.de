@@ -225,7 +225,7 @@
       </section>
     </main>
     <footer class="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
-      <p class="text-xs text-muted-foreground">&copy; 2024 Retouren Express. Alle Rechte vorbehalten.</p>
+      <p class="text-xs text-muted-foreground">&copy; 2024 Elvis Ramadani & Lilly Kempe GbR. Alle Rechte vorbehalten.</p>
       <nav class="sm:ml-auto flex gap-4 sm:gap-6">
         <NuxtLink to="#" class="text-xs hover:underline underline-offset-4">Nutzungsbedingungen</NuxtLink>
         <NuxtLink to="#" class="text-xs hover:underline underline-offset-4">Datenschutz</NuxtLink>
