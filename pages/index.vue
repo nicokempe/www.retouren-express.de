@@ -1,10 +1,10 @@
 <template>
     <main class="flex-1">
       <section class="relative w-full">
-        <img src="/packages-min.webp" alt="Hero Hintergrund" class="absolute inset-0 h-full w-full object-cover" />
+        <img src="/packages-min.webp" alt="Hero Hintergrund" class="absolute inset-0 h-full w-full object-cover blur-md" />
         <div class="container relative flex h-[400px] flex-col items-center justify-center gap-4 px-4 text-center text-primary-foreground md:px-6 mx-auto">
           <h1 class="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
-            Entdecke den Nervenkitzel von Mystery Boxes
+            Überraschungen warten!
           </h1>
           <p class="max-w-[600px] text-lg">Finde hochwertige Technik und andere Überraschungen mit Retouren Express</p>
           <div class="flex flex-col gap-2 sm:flex-row">
