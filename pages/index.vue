@@ -7,10 +7,10 @@
           <span class="text-lg font-bold">Retouren Express</span>
         </NuxtLink>
         <nav class="hidden items-center gap-4 md:flex">
-          <NuxtLink to="#" class="text-sm font-medium hover:underline">Über uns</NuxtLink>
-          <NuxtLink to="#" class="text-sm font-medium hover:underline">Wie es funktioniert</NuxtLink>
-          <NuxtLink to="#" class="text-sm font-medium hover:underline">Dienstleistungen</NuxtLink>
-          <NuxtLink to="#" class="text-sm font-medium hover:underline">FAQ</NuxtLink>
+          <NuxtLink :to="{ path: '/', hash: '#about' }" class="text-sm font-medium hover:underline">Über uns</NuxtLink>
+          <NuxtLink :to="{ path: '/', hash: '#how-it-works' }" class="text-sm font-medium hover:underline">Wie es funktioniert</NuxtLink>
+          <NuxtLink :to="{ path: '/', hash: '#services' }" class="text-sm font-medium hover:underline">Dienstleistungen</NuxtLink>
+          <NuxtLink :to="{ path: '/', hash: '#faq' }" class="text-sm font-medium hover:underline">FAQ</NuxtLink>
         </nav>
         <NuxtLink
             to="#"
