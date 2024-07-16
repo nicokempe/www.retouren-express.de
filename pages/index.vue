@@ -2,7 +2,7 @@
   <div class="flex min-h-screen flex-col">
     <header class="sticky top-0 z-50 w-full bg-background">
       <div class="container flex h-16 items-center justify-between px-4 md:px-6 mx-auto">
-        <NuxtLink to="#" class="flex items-center gap-2">
+        <NuxtLink to="/" class="flex items-center gap-2">
           <BoxIcon class="h-6 w-6" />
           <span class="text-lg font-bold">Retouren Express</span>
         </NuxtLink>
