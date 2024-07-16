@@ -21,17 +21,14 @@
         </NuxtLink>
       </div>
     </header>
-    
+
     <NuxtPage />
 
     <footer class="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
       <p class="text-xs text-muted-foreground">&copy; 2024 Elvis Ramadani & Lilly Kempe GbR. Alle Rechte vorbehalten.</p>
       <nav class="sm:ml-auto flex gap-4 sm:gap-6">
-        <NuxtLink to="#" class="text-xs hover:underline underline-offset-4">Nutzungsbedingungen</NuxtLink>
-        <NuxtLink to="#" class="text-xs hover:underline underline-offset-4">Datenschutz</NuxtLink>
-        <NuxtLink to="#" class="text-xs hover:underline underline-offset-4">Facebook</NuxtLink>
-        <NuxtLink to="#" class="text-xs hover:underline underline-offset-4">Twitter</NuxtLink>
-        <NuxtLink to="#" class="text-xs hover:underline underline-offset-4">Instagram</NuxtLink>
+        <NuxtLink to="/legal/imprint" class="text-xs hover:underline underline-offset-4">Impressum</NuxtLink>
+        <NuxtLink to="/legal/privacy-policy" class="text-xs hover:underline underline-offset-4">Datenschutz</NuxtLink>
       </nav>
     </footer>
   </div>
