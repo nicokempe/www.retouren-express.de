@@ -245,7 +245,6 @@ import HomeIcon from '@/components/icons/HomeIcon.vue';
 import MusicIcon from '@/components/icons/MusicIcon.vue';
 import SmileIcon from '@/components/icons/SmileIcon.vue';
 import TruckIcon from '@/components/icons/TruckIcon.vue';
-import Logo from "~/components/icons/Logo.vue";
 
 useSeoMeta({
   title: 'Start',
