@@ -13,10 +13,11 @@
           <NuxtLink :to="{ path: '/', hash: '#faq' }" class="text-sm font-medium hover:underline">FAQ</NuxtLink>
         </nav>
         <NuxtLink
-            to="#"
+            to="https://www.google.com/maps/search/?api=1&query=48.83722243760949,9.178458121836819"
+            target="_blank"
             class="rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow-sm transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
         >
-          Jetzt starten
+          Automaten finden
         </NuxtLink>
       </div>
     </header>
@@ -30,13 +31,14 @@
           <p class="max-w-[600px] text-lg">Finde hochwertige Technik und andere Überraschungen mit Retouren Express</p>
           <div class="flex flex-col gap-2 sm:flex-row">
             <NuxtLink
-                to="#"
+                to="https://www.google.com/maps/search/?api=1&query=48.83722243760949,9.178458121836819"
+                target="_blank"
                 class="inline-flex h-10 items-center justify-center rounded-md bg-primary px-6 text-sm font-medium text-primary-foreground shadow-sm transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
             >
-              Jetzt starten
+              Automaten finden
             </NuxtLink>
             <NuxtLink
-                to="#"
+                :to="{ path: '/', hash: '#about' }"
                 class="inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-6 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
             >
               Mehr erfahren
