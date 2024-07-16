@@ -1,0 +1,123 @@
+/* assets/css/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+    :root {
+        --background: 36 39% 88%;
+        --foreground: 36 45% 15%;
+        --primary: 36 45% 70%;
+        --primary-foreground: 36 45% 11%;
+        --secondary: 40 35% 77%;
+        --secondary-foreground: 36 45% 25%;
+        --accent: 36 64% 57%;
+        --accent-foreground: 36 72% 17%;
+        --destructive: 0 84% 37%;
+        --destructive-foreground: 0 0% 98%;
+        --muted: 36 33% 75%;
+        --muted-foreground: 36 45% 25%;
+        --card: 36 46% 82%;
+        --card-foreground: 36 45% 20%;
+        --popover: 0 0% 100%;
+        --popover-foreground: 240 10% 3.9%;
+        --border: 36 45% 60%;
+        --input: 36 45% 60%;
+        --ring: 36 45% 30%;
+        --radius: 0rem;
+        --font-heading: 'DM Sans', sans-serif;
+        --font-body: 'Space Mono', monospace;
+    }
+
+    .bg-background {
+        background-color: hsl(var(--background));
+    }
+
+    .text-foreground {
+        color: hsl(var(--foreground));
+    }
+
+    .bg-primary {
+        background-color: hsl(var(--primary));
+    }
+
+    .text-primary-foreground {
+        color: hsl(var(--primary-foreground));
+    }
+
+    .bg-secondary {
+        background-color: hsl(var(--secondary));
+    }
+
+    .text-secondary-foreground {
+        color: hsl(var(--secondary-foreground));
+    }
+
+    .bg-accent {
+        background-color: hsl(var(--accent));
+    }
+
+    .text-accent-foreground {
+        color: hsl(var(--accent-foreground));
+    }
+
+    .bg-destructive {
+        background-color: hsl(var(--destructive));
+    }
+
+    .text-destructive-foreground {
+        color: hsl(var(--destructive-foreground));
+    }
+
+    .bg-muted {
+        background-color: hsl(var(--muted));
+    }
+
+    .text-muted-foreground {
+        color: hsl(var(--muted-foreground));
+    }
+
+    .bg-card {
+        background-color: hsl(var(--card));
+    }
+
+    .text-card-foreground {
+        color: hsl(var(--card-foreground));
+    }
+
+    .bg-popover {
+        background-color: hsl(var(--popover));
+    }
+
+    .text-popover-foreground {
+        color: hsl(var(--popover-foreground));
+    }
+
+    .border-border {
+        border-color: hsl(var(--border));
+    }
+
+    .font-body {
+        font-family: var(--font-body);
+    }
+
+    .font-heading {
+        font-family: var(--font-heading);
+    }
+}
+
+@layer base {
+    * {
+        @apply border-border;
+    }
+
+    body {
+        @apply bg-background text-foreground font-body;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        @apply font-heading;
+    }
+}
