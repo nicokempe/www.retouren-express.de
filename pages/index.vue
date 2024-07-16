@@ -252,4 +252,31 @@ import HomeIcon from '@/components/icons/HomeIcon.vue';
 import MusicIcon from '@/components/icons/MusicIcon.vue';
 import SmileIcon from '@/components/icons/SmileIcon.vue';
 import TruckIcon from '@/components/icons/TruckIcon.vue';
+
+useSeoMeta({
+  title: 'Start',
+  description: 'Retouren Express - Ihr Partner für aufregende Rücksendungen und Mystery-Boxen.',
+  ogTitle: 'Retouren Express',
+  ogDescription: 'Retouren Express - Ihr Partner für aufregende Rücksendungen und Mystery-Boxen.',
+  // TODO: ogImage: '/media/mockups/screen.webp',
+  ogType: 'website',
+  ogUrl: 'https://www.retouren-express.de/',
+  twitterTitle: 'Retouren Express',
+  twitterDescription: 'Retouren Express - Ihr Partner für aufregende Rücksendungen und Mystery-Boxen.',
+  // TODO: twitterImage: '/media/mockups/screen.webp',
+  twitterCard: 'summary'
+})
+
+useHead({
+  htmlAttrs: {
+    lang: 'en'
+  },
+  link: [
+    {
+      rel: 'icon',
+      type: 'image/x-icon',
+      href: '/favicon.ico'
+    }
+  ]
+})
 </script>
