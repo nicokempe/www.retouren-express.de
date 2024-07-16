@@ -1,7 +1,7 @@
 <template>
     <main class="flex-1">
       <section class="relative w-full">
-        <img src="https://placehold.co/1920x400" alt="Hero Hintergrund" class="absolute inset-0 h-full w-full object-cover" />
+        <img src="/packages-min.webp" alt="Hero Hintergrund" class="absolute inset-0 h-full w-full object-cover" />
         <div class="container relative flex h-[400px] flex-col items-center justify-center gap-4 px-4 text-center text-primary-foreground md:px-6 mx-auto">
           <h1 class="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
             Entdecke den Nervenkitzel von Mystery Boxes
@@ -39,7 +39,7 @@
             </p>
           </div>
           <img
-              src="https://placehold.co/600x400"
+              src="/unwrapping-min.webp"
               alt="Über Retouren Express"
               class="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full"
           />
@@ -48,7 +48,7 @@
       <section id="how-it-works" class="w-full bg-muted py-12 md:py-24 lg:py-32">
         <div class="container grid items-center gap-6 px-4 md:grid-cols-2 md:px-6 lg:gap-12 mx-auto">
           <img
-              src="https://placehold.co/600x400"
+              src="/packages-with-jeans-min.webp"
               alt="Wie es funktioniert"
               class="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full"
           />
