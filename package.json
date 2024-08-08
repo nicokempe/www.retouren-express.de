@@ -21,7 +21,7 @@
     "@nuxt/types": "^2.18.1",
     "@nuxtjs/tailwindcss": "^6.12.1",
     "@tailwindcss/aspect-ratio": "^0.4.2",
-    "@tailwindcss/typography": "^0.5.13",
+    "@tailwindcss/typography": "^0.5.14",
     "nuxt": "^3.12.4",
     "nuxt-cloudflare-analytics": "^1.0.8",
     "vue": "latest"
