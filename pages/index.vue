@@ -9,7 +9,7 @@
           <p class="max-w-[600px] text-lg">Finde hochwertige Technik und andere Überraschungen mit Retouren Express</p>
           <div class="flex flex-col gap-2 sm:flex-row">
             <NuxtLink
-                to="https://www.google.com/maps/search/?api=1&query=48.83722243760949,9.178458121836819"
+                to="https://www.google.com/maps/search/?api=1&query=48.6820888,9.2739536"
                 target="_blank"
                 class="inline-flex h-10 items-center justify-center rounded-md bg-primary px-6 text-sm font-medium text-primary-foreground shadow-sm transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
             >
